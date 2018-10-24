@@ -1,4 +1,4 @@
 module.exports = {
-    privateToken: 'xxx',
+    privateToken: 'xxxx',
     url: 'https://gitlab.xxx.com/',
 }
