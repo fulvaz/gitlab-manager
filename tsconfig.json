@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "removeComments": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "module": "commonjs",
+        "jsxFactory": "h",
+        "baseUrl": ".",
+        "paths": {
+            "lib/*": ["./src/lib/*"]
+        },
+        "lib": [
+            "es2015",
+        ]
+        
+    },
+    "include": [
+        "src/**/*",
+        "lib/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+   
+}
